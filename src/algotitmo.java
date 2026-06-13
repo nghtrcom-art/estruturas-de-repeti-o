@@ -12,9 +12,9 @@ public class algotitmo {
         int num = 0, i = 0, y;
 
 
-        //Instruções ao usuário e leitura das entradas
+        //Instruções ao usuário e leitura das entradas//
         System.out.println("Para começar, digite o seu nome");
-        nome = sc.nextLine();
+        nome = sc.nextLine().trim();
 
 
         System.out.println("Olá " + nome + "! Agora digite um número:");
@@ -34,6 +34,7 @@ public class algotitmo {
 
         //Estrutura de repetição que irá realizar a contagem
         System.out.print("\nAqui está a ordem crescente:\n");
+
         while (i < num) {
             i++;
             System.out.print(i + " ");
